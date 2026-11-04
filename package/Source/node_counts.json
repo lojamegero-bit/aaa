@@ -1,0 +1,29 @@
+{
+  "COMPARISON": {
+    "CustomTool": 1,
+    "Background": 1,
+    "Loader": 3,
+    "RectangleMask": 3,
+    "Merge": 5,
+    "TextPlus": 2,
+    "Transform": 1
+  },
+  "REFERENCE": {
+    "CustomTool": 1,
+    "Background": 1,
+    "Loader": 2,
+    "RectangleMask": 2,
+    "Merge": 4,
+    "TextPlus": 2,
+    "Transform": 1
+  },
+  "DETAIL": {
+    "CustomTool": 1,
+    "Background": 1,
+    "Loader": 2,
+    "RectangleMask": 2,
+    "Merge": 3,
+    "TextPlus": 1,
+    "Transform": 1
+  }
+}

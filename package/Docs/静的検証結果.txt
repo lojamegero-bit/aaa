@@ -1,0 +1,15 @@
+ZBM UI SYSTEM v1.1 静的検証結果
+
+COMPARISON: Lua syntax, source links, mask ports, output graph and expressions PASS; 16 nodes
+REFERENCE: Lua syntax, source links, mask ports, output graph and expressions PASS; 13 nodes
+DETAIL: Lua syntax, source links, mask ports, output graph and expressions PASS; 11 nodes
+Expression evaluations: 7296
+Resolve host compatibility and Windows execution remain UNTESTED.
+
+全PNGデコード、4K RGBA UI、下20%の透明領域: PASS
+全Loaderファイル参照、UTF-8 BOMなし、日本語・空白を含むパスの文字列置換: PASS（Windows実行ではありません）
+プレビュー動画363フレーム、960×540、30fps、12.1秒、全デコード: PASS
+プレビューはPython/PillowとFFmpegによる概念シミュレーション。Resolveのレンダリングではありません。写真の画角とフォントは実機と異なる場合があります。
+Lua検査は構文・テーブル・数値式の検査であり、Resolveのツール実装・入力受付・GPU描画は実行していません。
+Windowsスクリプト実行、Resolve 21無料版でのインストール、Inspector、画像交換、尺変更、書き出し、4K性能: すべて未検証。
+前環境のZIPは引き継がれなかったため、同じレイアウト・16/13/11ノード構成で再生成。前環境ZIPとのバイナリ一致は主張しません。
